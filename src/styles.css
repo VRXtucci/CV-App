@@ -1,0 +1,227 @@
+/*Reglas Generales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 3840px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*Final de las Reglas Generales*/
+
+.CVContainer{
+    display: flex;
+}
+
+
+/*Inicio del Container CvLeft*/
+
+.ContainerLeft{
+    width: 370px;
+    background-color:#d0ffff;
+    margin: 2rem 0 0 2rem;
+}
+
+/*Final del Container Cv*/
+
+/*Inicio del CV*/
+
+.CVLeft h2{
+    font-size: 3rem;
+    color: #050505;
+    padding: 1rem;
+    font-weight: 900;
+}
+
+
+.containerImg{
+    display: flex;
+    justify-content: center;
+}
+
+.CVLeft img{
+    padding: 1.5rem 0;
+    width: 15rem;
+}
+
+
+.CVLeft h3{
+    font-size: 2.5rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    color: #050505;
+}
+
+.CVLeft p{
+    font-size: 2.5rem;
+    padding-left: 1rem;
+    padding-top: .5rem;
+    color: #050505;
+}
+
+.CVLeft ul{
+    font-size: 2.5rem;
+    padding: 1rem 0 0 1rem;
+}
+
+.CVLeft li{
+    padding: 1rem;
+    font-weight: 500;
+}
+
+/*Final del CV*/
+
+/* Estilos para el formulario de AgregarHabilidad */
+.agregar-habilidad {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.agregar-habilidad input {
+    border: none;
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.agregar-habilidad button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/*Inicio del Container CvRight*/
+
+.ContainerRight{
+    width: 1300px;
+    background-color:#484d65;
+    margin: 2rem 0 0 0;
+}
+
+/*Final del Container CvRight*/
+
+.personal-info{
+    padding: 1rem;
+}
+.personal-info h1{
+    font-size: 4.5rem;
+    color: #BCC4D4;
+}
+
+.personal-info h2 {
+    font-size: 2.5rem;
+    color:#BCC4D4 ;
+    padding: 1rem 0;
+}
+
+.personal-info p{
+    font-size: 2.5rem;
+    color:#BCC4D4;
+}
+
+.CVRight{
+    padding: 1rem;
+}
+
+h2{
+    padding: 2rem;
+    color: #bcc4d4;
+    font-size: 3.5rem;
+    padding-left: 1rem;
+}
+
+.CVRight h3{
+    padding: 1rem 0;
+    font-size: 2.5rem;
+    color: #6064ED;
+    font-weight: 600;
+}
+
+.CVRight li{
+    font-size: 2rem;
+    color: #BCC4D4;
+    padding: .9rem;
+}
+
+.CVRight a{
+    font-size: 2rem;
+    padding: 1rem;
+    color: #05f8f6;
+}
+
+
+/* Estilos para NewEducation */
+
+.new-education{
+    width: 13rem;
+}
+  
+  .new-education input {
+    margin: 1rem;
+    width: 130px;
+    padding: .5rem;
+    border: 3px solid #9d3131;
+    border-radius: 8px;
+  }
+  
+  .new-education button {
+    margin: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .new-education button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para NewProject */
+
+.new-project{
+    width: 11rem;
+}
+
+.new-project input {
+    margin: 1rem;
+    width: 130px;
+    padding: .5rem;
+    border: 3px solid #9d3131;
+    border-radius: 8px;
+  }
+  
+  .new-project button {
+    margin: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .new-project button:hover {
+    background-color: #0056b3;
+  }
+  
